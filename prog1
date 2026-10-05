@@ -1,0 +1,17 @@
+package abcd;
+
+public class remo {
+	int c= 10;
+	int d =20;
+	void add(int a, int b) {
+		System.out.println("sdfsd  " +(a+b));
+		System.out.println("sdfsd  " +(c+d));
+	}
+
+	public static void main(String[] args) {
+		remo ff = new remo();
+		ff.add(2, 3);
+	}
+}
+
+
