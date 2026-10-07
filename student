@@ -1,0 +1,15 @@
+package voiting;
+
+public class student {
+	String name;
+	int age;
+	void introduce() {
+		System.out.println("i am" + name +",age"+age);
+	}
+	public static void main(String[]args)
+{
+student s=new student();
+s.name=" asha ";s.age=21;
+s.introduce();
+}
+}
